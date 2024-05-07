@@ -6,31 +6,24 @@ Below you can find links to third-party libraries and repositories used in this 
 ## Third-Party Repositories
 
 ### Jetson Inference
-A library for deep learning with NVIDIA Jetson and inference utilities. This repository is utilized for vision processing tasks in our project.
-- [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference)
+A library for deep learning with NVIDIA Jetson and inference utilities - [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference)
 
 ### CSI Camera
-A repository containing the CSI Camera interface for NVIDIA Jetson Nano, used for camera inputs in our robot.
-- [CSI Camera GitHub](https://github.com/JetsonHacksNano/CSI-Camera)
+A repository containing the CSI Camera interface for NVIDIA Jetson Nano - [CSI Camera GitHub](https://github.com/JetsonHacksNano/CSI-Camera)
 
 ### Jetbot ROS
-A ROS implementation for NVIDIA JetBot with deep learning and robotics capabilities integrated.
-- [Jetbot ROS GitHub](https://github.com/dusty-nv/jetbot_ros)
+A ROS implementation for NVIDIA JetBot with deep learning and robotics capabilities integrated - [Jetbot ROS GitHub](https://github.com/dusty-nv/jetbot_ros)
 
 ### LSM303D Python
-Python library for interfacing with the LSM303D accelerometer and magnetometer sensor, used in our project for motion and orientation detection.
-- [LSM303D Python GitHub](https://github.com/pimoroni/lsm303d-python)
+Python library for interfacing with the LSM303D accelerometer and magnetometer sensor - [LSM303D Python GitHub](https://github.com/pimoroni/lsm303d-python)
 
 ### Raspicam Node
-A ROS node for the Raspberry Pi camera, providing camera functionalities compatible with ROS frameworks.
-- [Raspicam Node GitHub](https://github.com/UbiquityRobotics/raspicam_node)
+A ROS node for the Raspberry Pi camera - [Raspicam Node GitHub](https://github.com/UbiquityRobotics/raspicam_node)
 
 ### VL53L5CX Python
-Python library for the VL53L5CX time-of-flight sensor, employed for distance measurement in our navigation and object detection tasks.
-- [VL53L5CX Python GitHub](https://github.com/pimoroni/vl53l5cx-python)
+Python library for the VL53L5CX time-of-flight sensor - [VL53L5CX Python GitHub](https://github.com/pimoroni/vl53l5cx-python)
 
-## Usage
-
+### Usage
 To use these repositories, refer to their respective README files for detailed installation and usage instructions.
 
 
