@@ -1,0 +1,2 @@
+imu_publisher:jetbot_ros:raspicam_node
+-DCATKIN_DEVEL_PREFIX=/home/team5/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/team5/catkin_ws/install -G Unix Makefiles

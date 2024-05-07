@@ -1,0 +1,8 @@
+prefix=/home/team5/catkin_ws/install
+
+Name: imu_publisher
+Description: Description of imu_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
