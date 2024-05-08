@@ -21,14 +21,14 @@ $ roscore
 $ cd ~/catkin_ws/src/jetbot_ros/scripts
 $ python3 allpubtest.py
 ```
-The files to run include `imu_F.py`, `publishTOFData.py`, `encoder.py`, `encoder_publish.py`, `duckDetect.py` and `navTue.py`.
+The files to run include `imu_F.py`, `publishTOFData.py`, `encoder.py`, `encoder_publish.py`, `duckDetect.py` and `navTue.py`. The test results are displayed in the `images` folder.
 
 ## Viewing ROS Topics
 To view all subscribed and published topics, run: 
 ```bash
 $ rostopic list
 ```
-![rostopic list](catkin_ws/images/rostopicList.jpg)
+![rostopic list](images/rostopicList.jpg)
 
 ## Third-Party Repositories
 Below you can find links to third-party libraries and repositories used in this project.
