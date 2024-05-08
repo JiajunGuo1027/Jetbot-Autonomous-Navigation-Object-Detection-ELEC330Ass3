@@ -1,9 +1,37 @@
 # Jetbot-Autonomous-Navigation-Object-Detection-ELEC330Ass3
-ELEC330 Robotic Systems II Assignment 3. Use sensors attached to the Jetbot to autonomously navigate within a set arena. • Get the robot to identify one object placed in the arena and park next to it. • Demonstrate interfacing the sensors and using ROS to broadcast sen- sors data.
+ELEC330 Robotic Systems II Assignment 3. 
+• Use sensors attached to the Jetbot to autonomously navigate within a set arena. 
+• Get the robot to identify one object placed in the arena and park next to it. 
+• Demonstrate interfacing the sensors and using ROS to broadcast sen- sors data.
 
-Below you can find links to third-party libraries and repositories used in this project.
+## Requirements
+- NVIDIA-designed open-source JetBot hardware
+- Python 2.7 and Python 3.6
+
+## Starting the NVIDIA UI
+To open the NVIDIA UI interface, run the following command in the terminal: 
+```bash
+$ sudo systemctl isolate graphical
+```
+
+## Running the Jetbot
+To run the Jetbot for obstacle avoidance and to stop when detecting a yellow toy duck, execute the following commands in the terminal:
+```bash
+$ roscore
+$ cd ~/catkin_ws/src/jetbot_ros/scripts
+$ python3 allpubtest.py
+```
+The files to run include `imu_F.py`, `publishTOFData.py`, `encoder.py`, `encoder_publish.py`, `duckDetect.py` and `navTue.py`.
+
+## Viewing ROS Topics
+To view all subscribed and published topics, run: 
+```bash
+$ rostopic list
+```
+![rostopic list](catkin_ws/images/rostopicList.jpg)
 
 ## Third-Party Repositories
+Below you can find links to third-party libraries and repositories used in this project.
 
 ### Jetson Inference
 A library for deep learning with NVIDIA Jetson and inference utilities - [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference)
