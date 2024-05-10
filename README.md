@@ -18,7 +18,6 @@ $ sudo systemctl isolate graphical
 To run the Jetbot for obstacle avoidance and to stop when detecting a yellow toy duck, execute the following commands in the terminal:
 ```bash
 $ cd ~/catkin_ws/src/jetbot_ros/scripts
-$ roscore
 $ python3 allpubtest.py
 ```
 The files to run include `imu_F.py`, `publishTOFData.py`, `encoder.py`, `encoder_publish.py`, `duckDetect.py` and `navTue.py`. The test results are displayed in the `images` folder.
